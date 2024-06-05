@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Web Terminal</h2>
+    <div id="container">
+        <div id="terminalContainer">
+            <div id="terminal">
+                <div id="terminalOutput"></div>
+                <div id="inputLine" class="input-line">
+                    <span id="prompt">bash-3.2$ </span><input type="text" id="terminalInput" autofocus>
+                </div>
+            </div>            
+        </div>
+        <div id="questionContainer">
+            <h3>Questions</h3>
+            <div id="questions">
+                <!-- Questions or instructions will be displayed here -->
+                <p>Question 1: What is the command to list all directories?</p>
+                <p>Question 2: How do you check the current working directory?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem atque ex, consectetur cupiditate laudantium dolores distinctio suscipit omnis, et tempore quibusdam! Debitis, accusamus atque! Veritatis cumque soluta earum hic!</p>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
+
+
+
+
